@@ -652,12 +652,14 @@ body {
 }
 
 .supporting-image-events {
-    position: relative; /* Keep absolute positioning */
-    left: 20px; /* Keep the image aligned to the left edge of the screen */
-    top: 10px; /* Adjust this value to move the image down */
-    max-width: 18%; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Relative positioning allows for controlled shifts */
+    margin-left: 0; /* Ensures it’s flush with the left */
+    left: 0; /* Sets the element to the far-left of its container */
+    top: 10px; /* Moves it down by 10px */
+    max-width: 18%; /* Limits width to 18% of the parent element */
+    height: auto; /* Maintains aspect ratio */
 }
+
 
 /* Supporting Image Styles */
 .supporting-image {
