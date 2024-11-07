@@ -653,7 +653,7 @@ body {
 
 .supporting-image-events {
     position: relative; /* Keep absolute positioning */
-    left: 10px; /* Keep the image aligned to the left edge of the screen */
+    left: 90px; /* Keep the image aligned to the left edge of the screen */
     top: 60px; /* Adjust this value to move the image down */
     max-width: 18%; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
