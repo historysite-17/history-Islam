@@ -807,7 +807,7 @@ body {
     .next-button, .previous-button {
         font-size: 0.8em; /* Smaller font size */
         padding: 5px 10px; /* Reduced padding */
-        width: 60px; /* Adjust width as needed */
+        width: 20px; /* Adjust width as needed */
         height: auto; /* Keep the height auto for natural scaling */
     }
 }
