@@ -802,6 +802,16 @@ body {
     .supporting-image-historians, .supporting-image-events {
         max-width: 80%; /* Wider on mobile */
     }
+    /* Media query for mobile devices */
+@media (max-width: 768px) {
+    .next-button, .previous-button {
+        font-size: 0.8em; /* Smaller font size */
+        padding: 5px 10px; /* Reduced padding */
+        width: 60px; /* Adjust width as needed */
+        height: auto; /* Keep the height auto for natural scaling */
+    }
+}
+
 
     @media (max-width: 768px) {
         .slideshow-title {
