@@ -607,7 +607,7 @@ body {
     text-align: center; /* Center the text if desired */
     position: relative;
     padding: 50px; /* Add padding as needed */
-    top: -60px;
+    top: 50px;
 }
 
 .history-title-events {
