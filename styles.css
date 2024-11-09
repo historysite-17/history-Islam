@@ -676,6 +676,29 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+/* Default styling for smaller screens */
+.supporting-image-events {
+    width: 100%;  /* Allows flexibility on mobile */
+    height: auto;
+    max-width: 500px;  /* Optional: limits the size on larger screens */
+    margin: 0 auto;  /* Centers the image */
+}
+
+/* Apply a fixed size for larger screens */
+@media (min-width: 768px) {
+    .supporting-image-events {
+        width: 400px;  /* Fixed width for larger screens */
+        height: auto;  /* Maintains the aspect ratio */
+    }
+}
+
+@media (min-width: 1024px) {
+    .supporting-image-events {
+        width: 500px;  /* Adjusted width for desktop screens */
+    }
+}
+
+
 /* Media Queries */
 @media (max-width: 768px) {
     .description-block {
