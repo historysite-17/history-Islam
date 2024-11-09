@@ -610,6 +610,21 @@ body {
     top: -60px;
 }
 
+.history-title-events {
+    margin-top: 20px; /* Adjust this value to move title lower */
+    text-align: center; /* Ensure it's centered */
+}
+
+/* For positioning the image manually to the right */
+.supporting-image-events {
+    display: block;
+    max-width: 80%; /* Adjust based on desired size */
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    left: 10px; /* Adjust this value to move image right */
+}
+
 /* Styles for the Sirah page's description block */
 .events-description {
     background-image: url('images/bg.jpg'); /* Replace with the path to your Sirah page background image */
